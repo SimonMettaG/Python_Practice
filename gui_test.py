@@ -7,7 +7,7 @@ ventana_principal.geometry('500x500')
 icono = PhotoImage(file = './img/burger.png')
 ventana_principal.iconphoto(False, icono)
 
-boton_salir = Button(ventana_principal, text='Salir', width=10, height=2, command=ventana_principal.destroy)
+boton_salir = Button(ventana_principal, text='Sali', width=10, height=2, command=ventana_principal.destroy)
 boton_salir.place(relx=0.5, rely=0.9, anchor = CENTER)
 
 ventana_principal.mainloop()
